@@ -1348,7 +1348,7 @@ const LockScreen = ({ onUnlock }) => {
         <style>{CSS}</style>
         <div className="lock-screen">
           <div className="lock-card">
-            <h1>Outerlands Recipe Builder</h1>
+            <h1>Norte54 Recipe Builder</h1>
             <div className="lock-sub">{isSetup ? "Set a new password" : "Welcome! Set a shared password for your team."}</div>
             <input type="password" placeholder="Choose a password" value={input} onChange={e => { setInput(e.target.value); setError(""); }} onKeyDown={handleKey} autoFocus/>
             <input type="password" placeholder="Confirm password" value={confirm} onChange={e => { setConfirm(e.target.value); setError(""); }} onKeyDown={handleKey}/>
@@ -1366,7 +1366,7 @@ const LockScreen = ({ onUnlock }) => {
       <style>{CSS}</style>
       <div className="lock-screen">
         <div className="lock-card">
-          <h1>Outerlands Recipe Builder</h1>
+          <h1>Norte54 Recipe Builder</h1>
           <div className="lock-sub">Enter the team password to continue</div>
           <input type="password" placeholder="Password" value={input} onChange={e => { setInput(e.target.value); setError(""); }} onKeyDown={handleKey} autoFocus/>
           {error && <div className="lock-error">{error}</div>}
@@ -1474,7 +1474,7 @@ export default function App() {
     <div className="app">
       <style>{CSS}</style>
       <div className="header">
-        <h1>Outerlands Recipe Builder</h1>
+        <h1>Norte54 Recipe Builder</h1>
         <span className="change-pw-link" onClick={() => setShowChangePw(true)}>Change password</span>
       </div>
       <div className="tabs">
